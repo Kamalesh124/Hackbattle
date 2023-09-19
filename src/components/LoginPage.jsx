@@ -10,14 +10,16 @@ export default function LoginPage(){
             </div>
             <div className='loginButtons'>
                 <button className='studentLogin'>
-                    STUDENT LOGIN
+                    <div className='studentLoginPic'></div>
+                    <div>STUDENT LOGIN</div>
                 </button>
                 <button className='staffLogin'>
-                    STAFF LOGIN
+                    <div className='staffLoginPic'></div>
+                    <div>STAFF LOGIN</div>
                 </button>
             </div>
             <div className='haveAnAccount'>Don't have an account?</div>
-            <div className='signIn'>Sign in</div>
+            <button className='signIn'>Sign in</button>
         </div>
     )
     };
