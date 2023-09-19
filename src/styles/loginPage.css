@@ -39,6 +39,26 @@
     background: #8C1780;
     border-radius: 50px;
     color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: larger;
+}
+
+.studentLoginPic{
+    width: 50px;
+    height: 50px;
+    background-image: url('../photos/image 3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.staffLoginPic{
+    width: 50px;
+    height: 50px;
+    background-image: url('../photos/image 4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .haveAnAccount{
@@ -59,4 +79,5 @@
     background: #8C1780;
     color: white;
     border-radius: 50px;
+    font-size: larger;
 }
