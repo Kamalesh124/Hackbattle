@@ -1,0 +1,10 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body,#root{
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(to bottom,#5b0888,#a174ba);
+}
