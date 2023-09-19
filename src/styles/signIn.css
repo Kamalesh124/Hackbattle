@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    background: linear-gradient(to bottom, #5B0888, #A174BA);
+  }
+  .main_box{
+      display: flex;
+      flex-direction: column;
+      border:5px solid black;
+      justify-items: center;
+      align-items: center;
+      position:absolute;
+      top:223px;
+      width:574px;
+      height:408px;
+      background-color: #F7C8FF;
+      left:35%;
+      border-radius: 22px;
+  }
+  #user{
+      margin:5px;
+  }
+  #pass{
+      margin:5px;
+  }
