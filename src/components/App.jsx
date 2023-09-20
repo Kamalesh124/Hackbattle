@@ -5,6 +5,7 @@ import SignIn from "./SignIn";
 import Resetpassword from "./Resetpassword";
 import CleaningServices from "./CleaningServices";
 import HostelRoom from './HostelRoom';
+import SignPage from "./SignPage";
 
 export default function App(){
     const [stage,setStage] = useState('loginPage')
@@ -15,7 +16,8 @@ export default function App(){
             {stage === 'signIn' && <SignIn onProceed={()=>{setStage('resetPassword')}}/>}
             {stage === 'resetPassword' && <Resetpassword onProceed={()=>{setStage('cleaningServices')}}/>}
             {stage === 'cleaningServices' && <CleaningServices onProceed={()=>{setStage('hostelRoom')}}/>}
-            {stage === 'hostelRoom' && <HostelRoom onProceed={()=>{setStage('loginPage')}}/>}
+            {stage === 'hostelRoom' && <HostelRoom onProceed={()=>{setStage('signPage')}}/>}
+            {stage === 'signPage' && <SignPage onProceed={()=>{setStage('signIn')}}/>}
         </div>
     )
 }
