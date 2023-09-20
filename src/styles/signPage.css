@@ -1,0 +1,89 @@
+
+.main_box{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position:absolute;
+    top:223px;
+    width:580px;
+    height:520px;
+    background-color: #F7C8FF;
+    left:35%;
+    border-radius: 22px;
+}
+#user{
+    margin:6px;
+    width:500px;
+    height:50px;
+    border-radius: 8px;
+    text-align: center;
+}
+#pass{
+    margin:5px;
+    width:500px;
+    height:80px;
+    border-radius: 8px;
+    text-align: center;
+}
+#logo{
+    filter:invert();
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#542083;
+    font-size: 39px;
+}
+input{
+    background-color: #836B8E;
+    color: white;
+}
+#btn1{
+    background-color: #A01A82;
+    color: white;
+    width:250px;
+    height:50px;
+    margin:33px;
+    border-radius: 10px;
+    font-size:24px;
+   
+}
+#btn1:hover{
+    background-color: #d869c0;
+}
+::placeholder {
+  color: white; /* Change this to the desired color */
+  opacity: 75%;
+  font-size: 24px;
+}
+.box1{
+    position:absolute;
+    display:flex;
+    background-color: #8C1780;
+    width:384px;
+    height:101px;
+    left:39%;
+    top:84px;
+    border-radius: 39px;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+.box1 img{
+    height:88px;
+    width:79px;
+}
+#head{
+    color:white;
+}
+.txt p{
+    display: inline;
+}
+.txt{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+#head{
+    position: relative;
+    left:50px;
+}
