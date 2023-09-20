@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/loginPage.css'
 
-export default function LoginPage(){
+export default function LoginPage(props){
     return(
         <div className='loginPage'>
             <div className='vitLogo'>
@@ -20,6 +20,7 @@ export default function LoginPage(){
             </div>
             <div className='haveAnAccount'>Don't have an account?</div>
             <button className='signIn'>Sign in</button>
+            <button onClick={()=>{props.onProceed()}}>proceed</button>
         </div>
     )
     };

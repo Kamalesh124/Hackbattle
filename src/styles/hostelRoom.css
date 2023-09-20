@@ -1,0 +1,23 @@
+.hostelService button{
+    width: 375px;
+    height: 340px;
+    background-color: #D9D9D9;
+}
+
+.cleaningService image{
+    background-image: url('../photos/image 8.png');
+    width: 128px;
+    height: 128px;
+}
+
+.languageTransport image{
+    background-image: url('../photos/image 12.png');
+    width: 128px;
+    height: 128px;
+}
+
+.complainSection image{
+    background-image: url('../photos/image 10.png');
+    width: 128px;
+    height: 128px;
+}

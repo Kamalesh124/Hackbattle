@@ -8,3 +8,10 @@ body,#root{
     width: inherit;
     background: linear-gradient(to bottom,#5b0888,#a174ba);
 }
+
+.content{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
